@@ -1,0 +1,88 @@
+const movies = [{
+    id: 1,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie1.png",
+    saved: false,
+   },
+   
+   {
+    id: 2,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie2.png",
+    saved: false,
+   },
+   {
+    id: 3,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie3.png",
+    saved: false,
+   },
+   {
+    id: 4,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie4.png",
+    saved: false,
+   },
+   {
+    id: 5,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie5.png",
+    saved: false,
+   },
+   {
+    id: 6,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie6.png",
+    saved: false,
+   },
+   {
+    id: 7,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie7.png",
+    saved: false,
+   },
+   {
+    id: 8,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie8.png",
+    saved: false,
+   },
+   {
+    id: 9,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie9.png",
+    saved: false,
+   },
+   {
+    id: 10,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie10.png",
+    saved: false,
+   },
+   {
+    id: 11,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie11.png",
+    saved: false,
+   },
+   {
+    id: 12,
+    name: "33 слова о дизайне",
+    duration: "1ч 47м",
+    image: "../../images/movie12.png",
+    saved: false,
+   },
+]
+
+export default movies

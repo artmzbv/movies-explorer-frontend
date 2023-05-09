@@ -1,8 +1,13 @@
+import React from "react"
+import MoviesCard from "../MoviesCard/MoviesCard";
 import "./MoviesCardList.css"
 
-function MoviesCardList() {
+function MoviesCardList(props) {
+    const cards = props;
     return(
-        <div>MoviesCardList</div>
+<section className="list">
+    {cards.map((card) => <MoviesCard {...card}/> )}
+</section>
     )
 }
 

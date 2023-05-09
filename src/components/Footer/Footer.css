@@ -1,0 +1,44 @@
+.footer{
+    margin: 0;
+    padding: 0 70px;
+    background-color: #FAFAFA;
+    padding-top: 79px;
+}
+
+.footer__partnership{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #A0A0A0;   
+    padding-bottom: 20px;
+    border-bottom: 1px solid #A0A0A0;
+}
+
+.footer__about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__references{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_reference{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    margin-left: 20px;
+}
+
+.footer__year{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}

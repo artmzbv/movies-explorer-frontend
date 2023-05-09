@@ -2,7 +2,8 @@ import "./Profile.css"
 
 function Profile() {
     return(
-        <div>Profile</div>
+        <h1>Привет, Виталий</h1>
+        
     )
 }
 
