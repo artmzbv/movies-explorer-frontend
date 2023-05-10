@@ -3,6 +3,7 @@ import React from "react";
 import "./MoviesCardList.css";
 import MoviesCard from "../MoviesCard/MoviesCard";
 import { cards } from "../../utils/constants/cards";
+import Preloader from "../Preloader/Preloader"
 
 export default function MoviesCardList() {
   return (
