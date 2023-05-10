@@ -1,14 +1,18 @@
-import React from 'react'
-import "./MoviesCard.css"
+import React from "react";
 
-function MoviesCard(title, duration, src){
-    return(
-        <div className="card">
-        <p className="card__title">{title}</p>
-        <p className="card__duration">{duration}</p>
-        <img src={src} alt="карточка" className="card__image"/>
+import "./MoviesCard.css";
+
+export default function MoviesCard({
+    title,
+    duration,
+    src,
+  }) {
+ 
+    return (
+      <div className="card">
+            <h2 className="card__title">{title}</h2>
+            <p className="card__duration">{duration}</p>
+        <img className="card__image" src={src} alt="кадр" />
         </div>
-    )
-}
-
-export default MoviesCard
+    );
+  }

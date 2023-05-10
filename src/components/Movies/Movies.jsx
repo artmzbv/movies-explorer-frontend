@@ -1,25 +1,20 @@
-import "./Movies.css"
-import React, {useState} from 'react'
-import SearchForm from "../SearchForm/SearchForm"
-import Preloader from "../Preloader/Preloader"
-import MoviesCardList from "../MoviesCardList/MoviesCardList"
-import Footer from "../Footer/Footer"
-import Header from "../Header/Header"
-import cards from "../../utils/constants/cards"
+import React from "react";
 
-function Movies(){
-    const [cards, setCards] = useState([]);
-    return(
-        <section className="movies">
-        {/* <Header/> */}
-        <main className="main">
-        <SearchForm/>
-        {/* <Preloader /> */}
-        <MoviesCardList cards={cards}/>
-        </main>
-        {/* <Footer /> */}
-        </section>
-    )
+import "./Movies.css";
+import SearchForm from "../SearchForm/SearchForm";
+import Footer from "../Footer/Footer";
+import MoviesCardList from "../MoviesCardList/MoviesCardList";
+import Navigation from "../Navigation/Navigation";
+
+export default function Movies() {
+  return (
+    <section className="movies">
+      <Navigation />
+      <main className="main">
+        <SearchForm />
+        <MoviesCardList/>
+      </main>
+      <Footer />
+    </section>
+  );
 }
-
-export default Movies

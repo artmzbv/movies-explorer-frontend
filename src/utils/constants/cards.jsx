@@ -1,88 +1,100 @@
-const movies = [{
+import movie1 from "../../images/movie1.png"
+import movie2 from "../../images/movie2.png"
+import movie3 from "../../images/movie3.png"
+import movie4 from "../../images/movie4.png"
+import movie5 from "../../images/movie5.png"
+import movie6 from "../../images/movie6.png"
+import movie7 from "../../images/movie7.png"
+import movie8 from "../../images/movie8.png"
+import movie9 from "../../images/movie9.png"
+import movie10 from "../../images/movie10.png"
+import movie11 from "../../images/movie11.png"
+import movie12 from "../../images/movie12.png"
+
+
+export const cards = [{
     id: 1,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie1.png",
+    src: movie1,
     saved: false,
    },
    
    {
     id: 2,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie2.png",
+    src: movie2,
     saved: false,
    },
    {
     id: 3,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie3.png",
+    src: movie3,
     saved: false,
    },
    {
     id: 4,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie4.png",
+    src: movie4,
     saved: false,
    },
    {
     id: 5,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie5.png",
+    src: movie5,
     saved: false,
    },
    {
     id: 6,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie6.png",
+    src: movie6,
     saved: false,
    },
    {
     id: 7,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie7.png",
+    src: movie7,
     saved: false,
    },
    {
     id: 8,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie8.png",
+    src: movie8,
     saved: false,
    },
    {
     id: 9,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie9.png",
+    src: movie9,
     saved: false,
    },
    {
     id: 10,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie10.png",
+    src: movie10,
     saved: false,
    },
    {
     id: 11,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie11.png",
+    src: movie11,
     saved: false,
    },
    {
     id: 12,
-    name: "33 слова о дизайне",
+    title: "33 слова о дизайне",
     duration: "1ч 47м",
-    image: "../../images/movie12.png",
+    src: movie12,
     saved: false,
    },
 ]
-
-export default movies
