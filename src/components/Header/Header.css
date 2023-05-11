@@ -32,9 +32,9 @@
   }
   
   .header__path_account{
-        background: #F9F9F9;
-        border-radius: 20px;
-        width: 100px;
+    background: #F9F9F9;
+    border-radius: 20px;
+    width: 100px;
   }
   
   .header__path:hover {
@@ -44,3 +44,9 @@
   .header__logo{
     margin: 0;
   }
+
+  @media (max-width: 768px){
+    .header{
+    margin: 18px 14px;
+    }
+}

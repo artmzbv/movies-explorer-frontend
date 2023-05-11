@@ -25,3 +25,12 @@
         padding: 9px 60px 11px;
         border: 1px solid #E8E8E8;
     }
+
+    @media (max-width: 320px){
+        .list{
+            padding: 0;
+        }
+        .list__table{
+            gap: 16px;
+        }
+    }
