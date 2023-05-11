@@ -74,3 +74,28 @@
     color: #2BE080;
     margin-left: 6px;
 }
+
+@media (max-width: 400px){
+    .register{
+        margin: auto 30px;
+    }
+
+    .register__logo{
+        align-self: center;
+        margin-top: 56px;
+    }
+    .register__welcome{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .register__signedup-question{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .register__signin{
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

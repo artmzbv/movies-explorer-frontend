@@ -74,3 +74,28 @@
     color: #2BE080;
     margin-left: 6px;
 }
+
+@media (max-width: 400px){
+    .login{
+        margin: auto 30px;
+    }
+
+    .login__logo{
+        align-self: center;
+        margin-top: 56px;
+    }
+    .login__welcome{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .login__signedup-question{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .login__signin{
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

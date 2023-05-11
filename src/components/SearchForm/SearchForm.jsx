@@ -16,10 +16,10 @@ function SearchForm(){
                 required
             />
             </div>
+            <div className="search_container">
             <button className="search__button" type="submit">
                 <img src={search} alt="поиск" className="search__submit-image"/>
             </button>
-            <div className="search_container">
             <div className="search__shortfilms">
                 <input className="search__shortfilms-input" type="checkbox"/>
                 <span className="search__shortfilms-span" />

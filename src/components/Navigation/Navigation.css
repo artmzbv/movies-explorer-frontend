@@ -25,6 +25,8 @@
     background-color: #fff;
     margin-right: 16px;
     padding: 0;
+    text-decoration: none;
+    color: black;
 }  
 
 .navigation__account{
@@ -38,4 +40,20 @@
     background-color: #fff;
     background: #F9F9F9;
     border-radius: 20px; 
+    text-decoration: none;
+    color: black;
+}
+
+.navigation__burger{
+    display: none;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .navigation__burger{
+    display: block;
+    }
 }

@@ -15,7 +15,6 @@ export default function MoviesCardList({isSaved}) {
                 title={card.title}
                 duration={card.duration}
                 src={card.src}
-                saved={card.saved}
               />))
               :
               cards

@@ -1,11 +1,13 @@
 .search__form{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     background-color: #F9F9F9;
     border-radius: 9px;
     margin: 69px 0 60px;
     height: 72px;
+    max-width: 100%;
 }
 
 .search_container{
@@ -22,8 +24,7 @@
 .search__input{
     border: none;
     outline: none;
-    background-color: inherit;
-    width: 786px ;
+    background-color: inherit;;
 }
 
 .search__button{
