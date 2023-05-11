@@ -19,7 +19,7 @@ function SavedMovies(){
           {isLoading ? (
             <Proloader />
           ) : (
-          <MoviesCardList   />)}
+          <MoviesCardList/>)}
         </article>
         </main>
         <Footer />

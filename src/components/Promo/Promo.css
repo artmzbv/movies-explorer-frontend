@@ -17,24 +17,10 @@
     text-align: center;
     letter-spacing: -0.04em;
     margin: 160px 0 141px;
+    max-width: 730px;
     /* margin-top: 160px 0 141px ; */
 }
 
-.promo__list{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.promo__text{
-    background-color: #E8E8E8;
-    border-radius: 10px;
-    padding: 10px 23px;
-    margin: 0 0 30px 5px;
-    text-align: center; 
-    font-weight: 500;
-    font-size: 12px;
-}
 
 @media (max-width: 768px){
     .promo{

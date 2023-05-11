@@ -42,6 +42,9 @@
     height: 20px;
 }
 
+.search__shortfilms-input{
+    opacity: 0;
+}
 
 .search__shortfilms-span{
     position: absolute;

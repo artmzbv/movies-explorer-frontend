@@ -17,7 +17,7 @@ export const cards = [{
     title: "33 слова о дизайне",
     duration: "1ч 47м",
     src: movie1,
-    saved: false,
+    saved: true,
    },
    
    {
@@ -25,14 +25,14 @@ export const cards = [{
     title: "33 слова о дизайне",
     duration: "1ч 47м",
     src: movie2,
-    saved: false,
+    saved: true,
    },
    {
     id: 3,
     title: "33 слова о дизайне",
     duration: "1ч 47м",
     src: movie3,
-    saved: false,
+    saved: true,
    },
    {
     id: 4,

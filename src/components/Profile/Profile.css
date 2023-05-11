@@ -1,8 +1,7 @@
 .profile{
     display: flex;
     flex-direction: column;
-    max-width: 410px;
-    margin: auto;
+    margin: 0 70px;
 }
 
 .profile__title{
@@ -13,10 +12,11 @@
     margin: 74px auto 123px;
 }
 .profile__container{
+    width: 410px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin:0;
+    align-self: center  ;
 }
 
 .profile__container_bottom{

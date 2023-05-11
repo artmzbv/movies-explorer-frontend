@@ -12,7 +12,7 @@
     "profession picture"
     "description picture"
     "github picture";
-    margin-bottom: 101px;
+    margin-bottom: 50px;
 }
 
 .me__picture{
@@ -63,6 +63,15 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
+}
+
+.me__portfolio{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #A0A0A0;
+    margin-top: 101px
 }
 
 .me__reference{

@@ -1,8 +1,11 @@
 import "./Profile.css"
+import Navigation from "../Navigation/Navigation"
 
 function Profile() {
     return(
+        <>
         <section className="profile">
+        <Navigation/>
         <h1 className="profile__title">Привет, Виталий!</h1>
         <div className="profile__container">
         <p className="profile__text">Имя</p>
@@ -15,6 +18,7 @@ function Profile() {
         <p className="profile__edit">Редактировать</p>
         <p className="profile__exit">Выйти из Аккаунта</p>
         </section>
+        </>
     )
 }
 

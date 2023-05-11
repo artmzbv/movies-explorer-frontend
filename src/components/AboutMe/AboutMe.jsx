@@ -4,7 +4,7 @@ import student from '../../images/student.png'
 
 function AboutMe(){
     return(
-        <section className="me">
+        <section className="me" id="me">
         <h1 className="me__title">Студент</h1>
         <div className="me__info">
         <img className="me__picture" src={student} alt="студент" />
@@ -18,13 +18,13 @@ function AboutMe(){
         <p className="me__portfolio">Портфолио</p>
         </div>
         <div className="me__reference">Статичный сайт
-        <img className='me__picture' src={logoReference} alt="ссылка" />
+        <img src={logoReference} alt="ссылка" />
         </div>
         <div className="me__reference">Адаптивный сайт
-        <img className='me__picture' src={logoReference} alt="ссылка" />
+        <img src={logoReference} alt="ссылка" />
         </div>
         <div className="me__reference">Одностраничное приложение
-        <img className='me__picture' src={logoReference} alt="ссылка" />
+        <img src={logoReference} alt="ссылка" />
         </div>
         </section>
     )

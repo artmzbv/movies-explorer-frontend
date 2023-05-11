@@ -15,7 +15,6 @@ function Main(props){
             <AboutProject/>
             <Techs/>
             <AboutMe/>
-            <NavTab/> 
             <Footer/>  
         </main>
     )   
