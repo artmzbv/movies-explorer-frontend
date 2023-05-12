@@ -6,7 +6,7 @@ function Login(){
     return(
         <section className="login">
         <img className="login__logo" src={logo} alt="Логотип" />
-        <h1 className="login__welcome">Рады видеть!</h1>
+        <h1 className="login__title">Рады видеть!</h1>
         <p className="login__input-name">E-mail</p>
         <input className="login__input"
         type="email"
