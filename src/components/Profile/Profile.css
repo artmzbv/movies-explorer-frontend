@@ -51,6 +51,7 @@
     .profile{
         margin: 0 30px
     }
+
     .profile__container{
         margin: auto 149px;
     }
@@ -60,9 +61,11 @@
     .profile{
         margin: 0 14px;
     }
+
     .profile__container{
         margin: 0;
     }
+
     .profile__info{
         width: 260px;
     }

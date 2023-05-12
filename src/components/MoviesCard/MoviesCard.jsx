@@ -10,7 +10,7 @@ export default function  MoviesCard({
     src,
     saved
   }) {
-     
+
     const [isSaved, setSaved] = useState(saved);
     const handleSaveCard = () => {
       setSaved(!isSaved);
@@ -30,8 +30,8 @@ export default function  MoviesCard({
             <button type="button" className="card__button" onClick={handleSaveCard}>
                 {<img src={savedIcon} alt="Сохранить"/>}</button>
                 }
-        </div>
-        <img className="card__image" src={src} alt="кадр" />
-        </div>
+      </div>
+      <img className="card__image" src={src} alt="кадр" />
+      </div>
     );
   }

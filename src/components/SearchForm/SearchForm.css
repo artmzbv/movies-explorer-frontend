@@ -85,7 +85,7 @@
     border-radius: 50%;
   }
 
-  .search__shortfilms-name {
+.search__shortfilms-name {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -106,13 +106,16 @@
         align-items: center;
         margin:0 auto;
     }
+
     .search__button{
         padding:0;
         border: none;
     }
+
     .search__form{
         background-color: #fff;
     }
+
     .search_container_first{
         background-color: #F9F9F9;
         padding: 19px;
@@ -123,6 +126,7 @@
         padding-bottom: 45px;
         border-bottom: 1px solid  #E8E8E8;;
     }
+
     .search__loop{
         display: none;
     }
