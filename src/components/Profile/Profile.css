@@ -11,6 +11,7 @@
     text-align: center;
     margin: 74px auto 123px;
 }
+
 .profile__info{
     width: 410px;
     display: flex;
@@ -20,7 +21,7 @@
 }
 
 .profile__info_bottom{
-    padding-top: 17px;  
+    padding-top: 17px;
     border-top: 1px solid #E8E8E8;
     margin-bottom: 220px;
 }

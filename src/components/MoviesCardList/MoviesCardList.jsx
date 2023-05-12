@@ -22,11 +22,11 @@ export default function MoviesCardList({isSaved}) {
               .filter((card) => card.saved)
               .map((card) => (
                 <MoviesCard
-                  id={card.id}
-                  title={card.title}
-                  duration={card.duration}
-                  src={card.src}
-                  saved={card.saved}
+                id={card.id}
+                title={card.title}
+                duration={card.duration}
+                src={card.src}
+                saved={card.saved}
                 />
             ))
         }

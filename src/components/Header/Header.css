@@ -5,15 +5,17 @@
     background-color: #fff;
     margin: 18px 70px 20px;
 }
+
 .header__navigation{
     display: flex;
     flex-direction: row;
 }
+
 .header__path {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;  
+    text-decoration: none;
     text-align: center;
     color: black;
     align-self: center;
@@ -24,23 +26,23 @@
     margin-left: 21px;
     height: 32px;
   }
-  
+
   .header__path_login{
     background: #2BE080;
     border-radius: 3px;
     width: 76px;
   }
-  
+
   .header__path_account{
     background: #F9F9F9;
     border-radius: 20px;
     width: 100px;
   }
-  
+
   .header__path:hover {
     opacity: 0.5;
   }
-  
+
   .header__logo{
     margin: 0;
   }

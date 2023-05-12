@@ -1,7 +1,7 @@
 .search__form{
     display: grid;
     grid-template-rows: 72px;
-    grid-template-columns: 80% 20% ;
+    grid-template-columns: 70% 30% ;
     align-items: center;
     background-color: #F9F9F9;
     border-radius: 9px;
@@ -12,7 +12,6 @@
 .search__container{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
 }
 
@@ -35,6 +34,7 @@
     align-items: center;
     margin:0;
 }
+
 .search__input{
     border: none;
     outline: none;
@@ -69,11 +69,11 @@
     right: 0;
     bottom: 0;
     background-color: #2BE080;
-    border-radius: 20px; 
+    border-radius: 20px;
     cursor: pointer;
     width: 36px;
 }
-  
+
 .search__shortfilms-span:before {
     position: absolute;
     content: "";
@@ -84,7 +84,7 @@
     background-color: #FFFFFF;
     border-radius: 50%;
   }
-  
+
   .search__shortfilms-name {
     font-weight: 400;
     font-size: 14px;
@@ -92,7 +92,12 @@
     margin-right: 20px;
   }
 
-  
+@media (max-width: 800px){
+    .search__shortfilms{
+        margin: 0 14px 0 19px;
+}
+}
+
 @media (max-width: 700px){
     .search__form{
         display: flex;
@@ -101,7 +106,6 @@
         align-items: center;
         margin:0 auto;
     }
-
     .search__button{
         padding:0;
         border: none;
