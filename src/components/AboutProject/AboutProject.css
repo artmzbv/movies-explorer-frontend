@@ -3,7 +3,7 @@
 }
 
 .project__title{
-    padding: 0 30px 23px 30px;
+    padding-bottom: 23px;
     margin: 0;
     font-style: normal;
     font-weight: 400;
@@ -18,8 +18,9 @@
     grid-template-areas:
     "title1 title2"
     "text1 text2";
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 550px 550px;
     grid-template-rows: min-content min-content;
+    gap: 26px 40px;
 }
 
 .project__subtitle{
@@ -31,8 +32,7 @@
 }
 
 .project__text{
-    margin: 26px auto 110px;
-    font-style: normal;
+    margin: 0 auto 110px;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
