@@ -56,4 +56,13 @@
     .navigation__burger{
     display: block;
     }
+    
+    .navigation__film{
+    display: none;
+    }
+    
+    .navigation__account{
+    display: none;
+    }
+
 }
