@@ -71,13 +71,31 @@
 }
 
 @media(max-width: 768px){
-
   .me{
-    margin: 110px 50px 105px;
+    margin: 90px 50px 91px;
+  }
+
+  .me__name{
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .me__profession{
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .me__description{
+    max-width: 364px;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 20px 0 87px;
   }
 
   .me__info{
-    grid-template-columns: 47% 53% ;
+    grid-template-columns: 54% 46% ;
+  }
+  .me__picture{
+    max-width: 255px;
   }
 }
 
