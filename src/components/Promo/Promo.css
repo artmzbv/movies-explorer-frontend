@@ -26,4 +26,10 @@
     .promo{
     margin: 0 20px;
     }
+    .promo__title{
+      max-width: 680px;
+      margin: 350px 0 314px;
+      font-size: 40px;
+      line-height: 52px;
+  }
 }
