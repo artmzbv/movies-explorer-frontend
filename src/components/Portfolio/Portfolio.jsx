@@ -9,7 +9,7 @@ function Portfolio() {
       <img src={logoReference} alt="ссылка" />
       </div>
       <div className="portfolio__reference">Адаптивный сайт
-      <img src={logoReference} alt="ссылка" />
+      <img className="portfolio__picture" src={logoReference} alt="ссылка" />
       </div>
       <div className="portfolio__reference">Одностраничное приложение
       <img  src={logoReference} alt="ссылка" />

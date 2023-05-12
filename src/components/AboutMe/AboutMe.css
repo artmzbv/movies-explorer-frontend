@@ -1,5 +1,5 @@
 .me{
-    margin: 110px 70px;
+    margin: 109px 70px 84px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -13,13 +13,14 @@
     "profession picture"
     "description picture"
     "github picture";
+    margin-top: 66px;
 }
 
 .me__picture{
     grid-area: picture;
     width: 100%;
-    margin: 66px 0 auto auto;
-    max-width: 255px;
+    margin: 0 0 auto auto;
+    max-width: 270px;
 }
 
 .me__title{
@@ -34,26 +35,26 @@
 }
 
 .me__name{
-    margin: 0 0 18px;
     grid-area: name;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 58px;
     letter-spacing: -0.04em;
+    margin: 0;
 }
 
 .me__profession{
-    margin: 0 0 18px;
     grid-area: profession;
-    font-style: normal;
+    margin: 18px 0 0;
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
 }
 
 .me__description{
-    margin: 0 0 99px;
+    max-width: 600px;
+    margin: 26px 0 99px;
     grid-area: description;
     font-weight: 400;
     font-size: 14px;
