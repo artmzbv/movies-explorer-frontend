@@ -47,6 +47,17 @@
     height: 203px;
 }
 
+@media (max-width: 800px){
+  .card{
+      width: 339px;
+      height: 258px;
+  }
+  .card__image{
+      width: 339px;
+      height: 190px;
+  }
+}
+
 @media (max-width: 400px){
     .card{
         width: 300px;

@@ -11,6 +11,12 @@
         border-top: 1px solid #E8E8E8;
     }
 
+    @media (max-width: 768px){
+      .list__table{
+        grid-template-columns: repeat(auto-fill, 339px);
+        gap: 36px 30px;
+      }
+  }
     @media (max-width: 320px){
         .list{
             padding: 0;
