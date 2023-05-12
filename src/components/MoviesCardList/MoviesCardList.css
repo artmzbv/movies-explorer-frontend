@@ -5,9 +5,10 @@
     .list__table{
         display: grid;
         grid-template-columns: repeat(auto-fill, 364px);
+        justify-content: center;
         gap: 30px 24px;
         padding-top: 80px;
-        border-top: 1px solid #E8E8E8;;
+        border-top: 1px solid #E8E8E8;
     }
 
     .list__button{

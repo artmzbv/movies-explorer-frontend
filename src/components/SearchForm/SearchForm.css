@@ -70,6 +70,7 @@
     background-color: #2BE080;
     border-radius: 20px; 
     cursor: pointer;
+    width: 36px;
 }
   
 .search__shortfilms-span:before {
