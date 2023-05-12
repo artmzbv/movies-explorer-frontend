@@ -23,6 +23,9 @@ export default function Movies({setPopupMenuOpened, popupMenuOpened, popupMenuCl
         ) : (
         <MoviesCardList
         />)}
+      <button type="button" className="movies__button">
+          Ещё
+      </button>
       </article>
       <Burger isOpened={popupMenuOpened} popupMenuClosed={popupMenuClosed}/>
       </main>

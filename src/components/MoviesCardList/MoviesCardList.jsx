@@ -31,9 +31,6 @@ export default function MoviesCardList({isSaved}) {
             ))
         }
       </div>
-      <button type="button" className="list__button">
-          Ещё
-      </button>
     </section>
   );
 }
