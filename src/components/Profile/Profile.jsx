@@ -1,24 +1,26 @@
 import "./Profile.css"
 import Navigation from "../Navigation/Navigation"
+import Burger from "../Burger/Burger";
 
-function Profile() {
+function Profile({setPopupMenuOpened, popupMenuOpened, popupMenuClosed}) {
     return(
-        <>
         <section className="profile">
-        <Navigation/>
-        <h1 className="profile__title">Привет, Виталий!</h1>
+        <Navigation setIsOpened={setPopupMenuOpened}/>
         <div className="profile__container">
+        <h1 className="profile__title">Привет, Виталий!</h1>
+        <div className="profile__info">
         <p className="profile__text">Имя</p>
         <p className="profile__text">Виталий</p>
         </div>
-        <div className="profile__container profile__container_bottom">
+        <div className="profile__info profile__info_bottom">
         <p className="profile__text">Email</p>
         <p className="profile__text">pochta@yandex.ru</p>
         </div>
         <p className="profile__edit">Редактировать</p>
         <p className="profile__exit">Выйти из Аккаунта</p>
+        </div>
+        <Burger isOpened={popupMenuOpened} popupMenuClosed={popupMenuClosed}/>
         </section>
-        </>
     )
 }
 

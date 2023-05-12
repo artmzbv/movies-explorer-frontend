@@ -7,9 +7,9 @@ import menu from "../../images/menu.svg"
 
 function Navigation({ setIsOpened }) {
     function handleOpen() {
-      setIsOpened(true);
-    }
-
+        setIsOpened(true);
+      }    
+    
     return(
         <nav className="navigation">
         <div className="navigation__menu">

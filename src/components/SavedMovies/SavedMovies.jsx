@@ -5,14 +5,15 @@ import SearchForm from "../SearchForm/SearchForm";
 import Footer from "../Footer/Footer";
 import MoviesCardList from "../MoviesCardList/MoviesCardList";
 import Navigation from "../Navigation/Navigation";
-import Proloader from "../Preloader/Preloader"
+import Proloader from "../Preloader/Preloader";
+import Burger from "../Burger/Burger";
 
-function SavedMovies(){
+function SavedMovies({setPopupMenuOpened, popupMenuOpened, popupMenuClosed}){
     const isLoading = false;
 
     return (
       <section className="saved">
-        <Navigation />
+        <Navigation setIsOpened={setPopupMenuOpened}/>
         <main className="main">
         <article className="saved__content">
         <SearchForm />
@@ -21,6 +22,7 @@ function SavedMovies(){
           ) : (
           <MoviesCardList/>)}
         </article>
+        <Burger isOpened={popupMenuOpened} popupMenuClosed={popupMenuClosed}/>
         </main>
         <Footer />
       </section>

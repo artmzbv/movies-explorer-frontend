@@ -6,13 +6,14 @@ import Footer from "../Footer/Footer";
 import MoviesCardList from "../MoviesCardList/MoviesCardList";
 import Navigation from "../Navigation/Navigation";
 import Proloader from "../Preloader/Preloader"
+import Burger from "../Burger/Burger";
 
-export default function Movies() {
+export default function Movies({setPopupMenuOpened, popupMenuOpened, popupMenuClosed}) {
   const isLoading = false;
 
   return (
     <section className="movies">
-      <Navigation />
+      <Navigation setIsOpened={setPopupMenuOpened}/>
       <main className="main">
       <article className="movies__content">
       <SearchForm />
@@ -21,6 +22,7 @@ export default function Movies() {
         ) : (
         <MoviesCardList/>)}
       </article>
+      <Burger isOpened={popupMenuOpened} popupMenuClosed={popupMenuClosed}/>
       </main>
       <Footer />
     </section>
