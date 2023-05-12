@@ -105,7 +105,13 @@
 
 @media (max-width: 768px){
     .project{
-    margin: 110px 50px;
+    margin: 90px 50px;
+    }
+    .project__text{
+      margin: 0 auto 93px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
     }
 }
 
