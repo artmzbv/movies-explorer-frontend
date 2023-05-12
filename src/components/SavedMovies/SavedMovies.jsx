@@ -12,6 +12,7 @@ function SavedMovies({setPopupMenuOpened, popupMenuOpened, popupMenuClosed}){
     const isLoading = false;
 
     return (
+      <>
       <section className="saved">
         <Navigation setIsOpened={setPopupMenuOpened}/>
         <main className="main">
@@ -26,8 +27,9 @@ function SavedMovies({setPopupMenuOpened, popupMenuOpened, popupMenuClosed}){
         </article>
         <Burger isOpened={popupMenuOpened} popupMenuClosed={popupMenuClosed}/>
         </main>
-        <Footer />
       </section>
+      <Footer />
+      </>
     );
   }
 
