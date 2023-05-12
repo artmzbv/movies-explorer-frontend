@@ -9,17 +9,18 @@
     max-width: 100%;
 }
 
-.search_container{
+.search__container{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
 
-.search_container_first{
+.search__container_first{
     justify-content: space-between;
 }
-.search_container_second{
+
+.search__container_second{
     justify-content: flex-start;
 }
 

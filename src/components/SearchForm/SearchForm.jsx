@@ -6,7 +6,7 @@ function SearchForm(){
     return(
         <section className="search">
         <form className="search__form">
-            <div className="search_container search_container_first">
+            <div className="search__container search__container_first">
                 <div className="search__input-block">
             <img src={loop} alt="Поиск" className="search__loop"/>
             <input
@@ -21,7 +21,7 @@ function SearchForm(){
                 <img src={search} alt="поиск" className="search__submit-image"/>
             </button>
             </div>
-            <div className="search_container search_container_second">
+            <div className="search__container search__container_second">
             <div className="search__shortfilms">
                 <input className="search__shortfilms-input" type="checkbox"/>
                 <span className="search__shortfilms-span" />
