@@ -1,8 +1,20 @@
 import "./Portfolio.css"
+import logoReference from '../../images/reference.svg'
 
 function Portfolio() {
     return(
-        <div>Portfolio</div>
+      <section className="portfolio">
+      <p className="portfolio__text">Портфолио</p>
+      <div className="portfolio__reference">Статичный сайт
+      <img src={logoReference} alt="ссылка" />
+      </div>
+      <div className="portfolio__reference">Адаптивный сайт
+      <img src={logoReference} alt="ссылка" />
+      </div>
+      <div className="portfolio__reference">Одностраничное приложение
+      <img  src={logoReference} alt="ссылка" />
+      </div>
+      </section>
     )
 }
 

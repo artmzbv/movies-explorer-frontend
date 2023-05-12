@@ -5,6 +5,7 @@ import Techs from "../Techs/Techs"
 import AboutMe from "../AboutMe/AboutMe"
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
+import Portfolio from "../Portfolio/Portfolio"
 
 function Main(props){
     return (
@@ -14,9 +15,10 @@ function Main(props){
             <AboutProject/>
             <Techs/>
             <AboutMe/>
-            <Footer/>  
+            <Portfolio/>
+            <Footer/>
         </main>
-    )   
+    )
 }
 
 export default Main

@@ -1,5 +1,5 @@
 .me{
-    margin: 110px 70px 105px;
+    margin: 110px 70px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -13,7 +13,6 @@
     "profession picture"
     "description picture"
     "github picture";
-    margin-bottom: 50px;
 }
 
 .me__picture{
@@ -70,88 +69,54 @@
     line-height: 17px;
 }
 
-.me__portfolio{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    color: #A0A0A0;
-    margin-top: 101px
-}
-
-.me__reference{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 50px;
-    letter-spacing: -0.04em;
-    border-bottom: 1px solid #E8E8E8;
-    padding-bottom: 19px;
-    margin: 0 0 20px;
-}
-
 @media(max-width: 768px){
 
   .me{
     margin: 110px 50px 105px;
-    }
+  }
 
   .me__info{
-        grid-template-columns: 47% 53% ;
-    }
+    grid-template-columns: 47% 53% ;
+  }
 }
 
 @media (max-width: 320px){
-    .me{
-        margin: 110px 14px 40px;
-    }
+  .me{
+    margin: 110px 14px 40px;
+  }
 
-    .me__info{
+  .me__info{
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
+  }
+
+  .me__picture{
+    grid-area: picture;
+    width: 100%;
+    margin: 60px auto 40px;
+    max-width: 255px;
     }
 
-    .me__picture{
-        grid-area: picture;
-        width: 100%;
-        margin: 60px auto 40px;
-        max-width: 255px;
+  .me__profession{
+    font-size: 11px;
+    line-height: 16px;
     }
 
-    .me__profession{
-        font-size: 11px;
-        line-height: 16px;
-    }
+  .me__name{
+    font-size: 30px;
+    line-height: 36px;
+  }
 
-    .me__name{
-        font-size: 30px;
-        line-height: 36px;
-    }
+  .me__description{
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0 0 40px;
+  }
 
-    .me__description{
-        font-size: 11px;
-        line-height: 16px;
-        margin: 0 0 40px;
-    }
-
-    .me__github{
-        margin: 0;
-        font-size: 14px;
-        line-height: 17px;
-    }
-
-    .me__portfolio{
-        margin-top: 70px;
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .me__reference{
-        font-size: 18px;
-        line-height: 28px;
+  .me__github{
+    margin: 0;
+    font-size: 14px;
+    line-height: 17px;
     }
 }

@@ -1,0 +1,29 @@
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 70px;
+}
+
+.portfolio__text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #A0A0A0;
+  margin-bottom: 50px;
+}
+
+.portfolio__reference{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: -0.04em;
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 19px;
+  margin: 0 0 20px;
+}
