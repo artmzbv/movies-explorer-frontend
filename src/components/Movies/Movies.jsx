@@ -8,7 +8,7 @@ import Navigation from "../Navigation/Navigation";
 import Proloader from "../Preloader/Preloader"
 import Burger from "../Burger/Burger";
 
-export default function Movies({setPopupMenuOpened, popupMenuOpened, popupMenuClosed}) {
+export default function Movies({setPopupMenuOpened, popupMenuOpened, popupMenuClosed, isSaved}) {
   const isLoading = false;
 
   return (
@@ -20,7 +20,8 @@ export default function Movies({setPopupMenuOpened, popupMenuOpened, popupMenuCl
         {isLoading ? (
           <Proloader />
         ) : (
-        <MoviesCardList/>)}
+        <MoviesCardList
+        />)}
       </article>
       <Burger isOpened={popupMenuOpened} popupMenuClosed={popupMenuClosed}/>
       </main>

@@ -20,7 +20,9 @@ function SavedMovies({setPopupMenuOpened, popupMenuOpened, popupMenuClosed}){
           {isLoading ? (
             <Proloader />
           ) : (
-          <MoviesCardList/>)}
+          <MoviesCardList
+          isSaved={true}
+          />)}
         </article>
         <Burger isOpened={popupMenuOpened} popupMenuClosed={popupMenuClosed}/>
         </main>

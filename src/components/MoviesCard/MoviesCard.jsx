@@ -4,13 +4,13 @@ import "./MoviesCard.css";
 import saveIcon from '../../images/saveicon.svg'
 import savedIcon from '../../images/savedicon.svg'
 
-export default function MoviesCard({
+export default function  MoviesCard({
     title,
     duration,
     src,
     saved
   }) {
-    
+     
     const [isSaved, setSaved] = useState(saved);
     const handleSaveCard = () => {
       setSaved(!isSaved);
