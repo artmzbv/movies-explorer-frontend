@@ -1,11 +1,11 @@
 .search__form{
     display: grid;
     grid-template-rows: 72px;
-    grid-template-columns: 70% 30% ;
+    grid-template-columns: 80% 20% ;
     align-items: center;
     background-color: #F9F9F9;
     border-radius: 9px;
-    margin: 69px 0 60px;
+    margin: 69px 0 70px;
     max-width: 100%;
 }
 
@@ -16,6 +16,7 @@
 }
 
 .search__container_first{
+    padding-left: 19px;
     justify-content: space-between;
 }
 
