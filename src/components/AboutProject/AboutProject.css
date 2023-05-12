@@ -99,6 +99,7 @@
 @media (max-width: 1000px){
   .project__description{
     grid-template-columns: 319px 319px;
+    gap: 22px 30px;
   }
 }
 
