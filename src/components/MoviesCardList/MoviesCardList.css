@@ -33,4 +33,9 @@
         .list__table{
             gap: 16px;
         }
+        .list__button{
+            padding: 11px 20px 9px;
+            width: 240px;
+
+        }
     }
