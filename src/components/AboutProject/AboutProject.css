@@ -89,6 +89,19 @@
     color: #A0A0A0;
 }
 
+
+@media (max-width: 1200px){
+  .project__description{
+    grid-template-columns: 400px 400px;
+  }
+}
+
+@media (max-width: 1000px){
+  .project__description{
+    grid-template-columns: 319px 319px;
+  }
+}
+
 @media (max-width: 768px){
     .project{
     margin: 110px 50px;
