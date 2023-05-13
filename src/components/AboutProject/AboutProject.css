@@ -115,7 +115,7 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 680px){
     .project{
         margin: 70px 18px;
     }

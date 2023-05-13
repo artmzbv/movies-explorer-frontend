@@ -28,7 +28,7 @@
     }
   }
 
-@media (max-width: 320px){
+@media (max-width: 680px  ){
     .navtab__list{
         margin: 0 auto;
     }
