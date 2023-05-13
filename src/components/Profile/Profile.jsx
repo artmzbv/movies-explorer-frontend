@@ -17,7 +17,7 @@ function Profile({setPopupMenuOpened, popupMenuOpened, popupMenuClosed}) {
         <p className="profile__text">pochta@yandex.ru</p>
         </div>
         <p className="profile__edit">Редактировать</p>
-        <p className="profile__exit">Выйти из Аккаунта</p>
+        <p className="profile__exit">Выйти из аккаунта</p>
         </div>
         <Burger isOpened={popupMenuOpened} popupMenuClosed={popupMenuClosed}/>
         </section>
