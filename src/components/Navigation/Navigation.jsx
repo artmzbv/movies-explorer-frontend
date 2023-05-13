@@ -22,7 +22,8 @@ function Navigation({ setIsOpened }) {
         <NavLink to="/profile" className="navigation__account">Аккаунт</NavLink>
         <button
         onClick={handleOpen}
-        type="menu"
+        type="button"
+        name="account"
         className="navigation__burger"
         >
         <img src={menu} alt="меню" />
