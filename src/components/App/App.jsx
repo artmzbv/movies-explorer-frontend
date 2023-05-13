@@ -8,8 +8,6 @@ import Profile from '../Profile/Profile'
 import Login from '../Login/Login'
 import Register from '../Register/Register'
 import NotFoundPage from '../NotFound/NotFoundPage';
-// import Header from '../Header/Header'
-// import Footer from '../Footer/Footer'
 
 function App() {
   const [popupMenuOpened, setPopupMenuOpened] = useState(false)
@@ -19,7 +17,6 @@ function App() {
 
   return (
     <div className='page'>
-    {/* <Header/> */}
     <BrowserRouter>
     <Routes>
     <Route path="/" exact element={<Main />} />
@@ -40,7 +37,6 @@ function App() {
     <Route path="/*" exact element={<NotFoundPage/>} />
     </Routes>
     </BrowserRouter>
-    {/* <Footer/> */}
     </div>
   );
 }
