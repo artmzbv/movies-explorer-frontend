@@ -24,6 +24,8 @@ function SavedMovies({setPopupMenuOpened, popupMenuOpened, popupMenuClosed}){
           <MoviesCardList
           isSaved={true}
           />)}
+          <div className="saved__empty-block">
+          </div>
         </article>
         <Burger isOpened={popupMenuOpened} popupMenuClosed={popupMenuClosed}/>
         </main>

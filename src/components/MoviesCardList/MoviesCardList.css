@@ -1,7 +1,4 @@
-    .list{
-        display: flex;
-        flex-direction: column;
-    }
+
     .list__table{
         display: grid;
         grid-template-columns: repeat(auto-fill, 364px);
@@ -12,15 +9,17 @@
     }
 
     @media (max-width: 768px){
+      .list{
+        padding: 0;
+      }
       .list__table{
+        padding-top: 110;
         grid-template-columns: repeat(auto-fill, 339px);
+        grid-template-rows: 3;
         gap: 36px 30px;
       }
   }
     @media (max-width: 320px){
-        .list{
-            padding: 0;
-        }
         .list__table{
             gap: 16px;
         }

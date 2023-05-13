@@ -5,6 +5,16 @@
     margin: 0 70px 170px;
 }
 
+@media (max-width: 800px){
+  .saved{
+      margin: 0 30px
+  }
+
+  .saved__empty-block{
+    height: 170px
+  }
+}
+
 @media (max-width: 400px){
     .saved{
         margin: 0 10px
