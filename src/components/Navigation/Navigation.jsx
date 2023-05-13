@@ -8,12 +8,14 @@ import menu from "../../images/menu.svg"
 function Navigation({ setIsOpened }) {
     function handleOpen() {
         setIsOpened(true);
-      }    
-    
+      }
+
     return(
         <nav className="navigation">
         <div className="navigation__menu">
-        <img src={logo} alt="логотип" className="navigation__logo"/>
+        <NavLink to="/">
+          <img src={logo} alt="логотип" className="navigation__logo"/>
+          </NavLink>
         <NavLink to="/movies" className="navigation__film">Фильмы</NavLink>
         <NavLink to="/saved" className="navigation__film">Сохраненные фильмы</NavLink>
         </div>

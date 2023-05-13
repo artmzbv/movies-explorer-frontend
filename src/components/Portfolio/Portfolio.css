@@ -6,7 +6,7 @@
 }
 
 .portfolio__text{
-  font-style: normal;
+  text-decoration: none;
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
@@ -18,9 +18,13 @@
 .portfolio__references{
  padding: 0;
 }
+.portfolio__link{
+  text-decoration: none;
+  border-bottom: none;
+}
 
 .portfolio__reference{
-  text-decoration: none;
+  color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
