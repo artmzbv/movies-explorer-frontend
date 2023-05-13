@@ -5,15 +5,17 @@ function Portfolio() {
     return(
       <section className="portfolio">
       <p className="portfolio__text">Портфолио</p>
-      <div className="portfolio__reference">Статичный сайт
+      <ul className="portfolio__references">
+      <li className="portfolio__reference">Статичный сайт
       <img src={logoReference} alt="ссылка" />
-      </div>
-      <div className="portfolio__reference">Адаптивный сайт
+      </li>
+      <li className="portfolio__reference">Адаптивный сайт
       <img className="portfolio__picture" src={logoReference} alt="ссылка" />
-      </div>
-      <div className="portfolio__reference">Одностраничное приложение
+      </li>
+      <li className="portfolio__reference">Одностраничное приложение
       <img  src={logoReference} alt="ссылка" />
-      </div>
+      </li>
+      </ul>
       </section>
     )
 }

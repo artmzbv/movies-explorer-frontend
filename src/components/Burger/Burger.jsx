@@ -9,7 +9,7 @@ function Burger({isOpened, popupMenuClosed}){
     return(
         <section className={isOpened ? "burger__menu" : "burger__menu_hidden"}>
         <div className="burger__opacity">
-         <button className="burger__button" type="button" area-label="закрыть окно" onClick={popupMenuClosed}><img src={exit} alt="закрыть"/></button>
+         <button className="burger__button" type="button" onClick={popupMenuClosed}><img src={exit} alt="закрыть"/></button>
         <div className="burger__container">
         <div className="burger__content">
         <NavLink to="/" className="burger__link" onClick={popupMenuClosed}>Главная</NavLink>

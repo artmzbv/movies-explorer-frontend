@@ -9,15 +9,17 @@ import Portfolio from "../Portfolio/Portfolio"
 
 function Main(props){
     return (
-        <main>
+      <>
             <Header/>
+        <main>
             <Promo/>
             <AboutProject/>
             <Techs/>
             <AboutMe/>
             <Portfolio/>
+          </main>
             <Footer/>
-        </main>
+      </>
     )
 }
 

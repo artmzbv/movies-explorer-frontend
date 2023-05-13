@@ -12,10 +12,15 @@
   line-height: 20px;
   color: #A0A0A0;
   margin-bottom: 50px;
+  padding: 0;
 }
 
+.portfolio__references{
+ padding: 0;
+}
 
 .portfolio__reference{
+  text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

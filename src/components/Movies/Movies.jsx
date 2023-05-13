@@ -13,9 +13,9 @@ export default function Movies({setPopupMenuOpened, popupMenuOpened, popupMenuCl
 
   return (
     <>
+  <main className="main">
     <section className="movies">
       <Navigation setIsOpened={setPopupMenuOpened}/>
-      <main className="main">
       <article className="movies__content">
       <SearchForm />
         {isLoading ? (
@@ -28,8 +28,8 @@ export default function Movies({setPopupMenuOpened, popupMenuOpened, popupMenuCl
       </button>
       </article>
       <Burger isOpened={popupMenuOpened} popupMenuClosed={popupMenuClosed}/>
-      </main>
     </section>
+    </main>
     <Footer />
     </>
   );

@@ -4,8 +4,10 @@ import Burger from "../Burger/Burger";
 
 function Profile({setPopupMenuOpened, popupMenuOpened, popupMenuClosed}) {
     return(
+      <>
+      <Navigation setIsOpened={setPopupMenuOpened}/>
+      <main>
         <section className="profile">
-        <Navigation setIsOpened={setPopupMenuOpened}/>
         <div className="profile__container">
         <h1 className="profile__title">Привет, Виталий!</h1>
         <div className="profile__info">
@@ -21,6 +23,8 @@ function Profile({setPopupMenuOpened, popupMenuOpened, popupMenuClosed}) {
         </div>
         <Burger isOpened={popupMenuOpened} popupMenuClosed={popupMenuClosed}/>
         </section>
+      </main>
+      </>
     )
 }
 
