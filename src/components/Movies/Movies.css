@@ -34,4 +34,9 @@
     .movies{
         margin: 0 10px
     }
+    .movies__button{
+      outline: none;
+      cursor: pointer;
+      width: 240px;
+}
 }

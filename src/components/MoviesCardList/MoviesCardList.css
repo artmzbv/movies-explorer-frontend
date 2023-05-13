@@ -1,7 +1,7 @@
 
     .list__table{
         display: grid;
-        grid-template-columns: repeat(auto-fill, 364px);
+        grid-template-columns: repeat(auto-fill,  364px);
         justify-content: center;
         gap: 30px 24px;
         padding-top: 80px;
@@ -21,11 +21,16 @@
   }
     @media (max-width: 320px){
         .list__table{
-            gap: 16px;
+          padding-top: 50px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 0;
         }
         .list__button{
-            padding: 11px 20px 9px;
-            width: 240px;
+          padding: 11px 20px 9px;
+          width: 240px;
 
         }
     }
