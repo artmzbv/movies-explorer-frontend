@@ -42,6 +42,10 @@
     background-color: inherit;
 }
 
+.search__loop:hover{
+    opacity: 0.5;
+}
+
 .search__button{
     cursor: pointer;
     border: none;
