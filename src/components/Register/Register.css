@@ -83,6 +83,12 @@
     margin-left: 6px;
 }
 
+@media (max-width: 800px){
+  .register{
+        margin: 232px auto;
+  }
+}
+
 @media (max-width: 400px){
     .register{
         margin: auto 30px;

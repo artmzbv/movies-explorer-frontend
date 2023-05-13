@@ -82,6 +82,12 @@
     margin-left: 6px;
 }
 
+@media (max-width: 800px){
+    .login{
+      margin: 232px auto;
+    }
+}
+
 @media (max-width: 400px){
     .login{
         margin: auto 30px;
