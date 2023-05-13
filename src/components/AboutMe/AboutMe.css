@@ -101,20 +101,26 @@
 
 @media (max-width: 320px){
   .me{
-    margin: 110px 14px 40px;
+    margin: 70px 14px 40px;
+  }
+
+  .me__title{
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .me__info{
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
     margin-bottom: 40px;
   }
 
   .me__picture{
     grid-area: picture;
     width: 100%;
-    margin: 60px auto 40px;
-    max-width: 255px;
+    margin: 0 auto 40px;
+    max-width: 290px;
     }
 
   .me__profession{
@@ -130,7 +136,7 @@
   .me__description{
     font-size: 11px;
     line-height: 16px;
-    margin: 0 0 40px;
+    margin: 20px 0 40px;
   }
 
   .me__github{

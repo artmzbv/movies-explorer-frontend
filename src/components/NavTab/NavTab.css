@@ -30,7 +30,7 @@
 
 @media (max-width: 320px){
     .navtab__list{
-        margin-bottom: 17px;
+        margin: 0 auto;
     }
     .navtab__text{
         border-radius: 6px;

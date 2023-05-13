@@ -30,13 +30,30 @@
 }
 
 @media (max-width: 768px){
-  .portfolio{
-    margin: 0 50px 50px;
-  }
-  .portfolio__text{
-    margin-top: 0;
-  }
-  .portfolio__reference{
-  font-size: 28px;
-  }
+    .portfolio{
+        margin: 0 50px 50px;
+    }
+    .portfolio__text{
+        margin-top: 0;
+    }
+    .portfolio__reference{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 320px){
+    .portfolio{
+        margin: 0 14px 70px;
+    }
+
+    .portfolio__text{
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .portfolio__reference{
+        font-size: 18px;
+        line-height: 28px;
+    }
 }

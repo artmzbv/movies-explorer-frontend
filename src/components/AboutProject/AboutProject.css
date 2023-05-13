@@ -120,13 +120,19 @@
         margin: 70px 18px;
     }
 
+    .project__title{
+      margin-bottom: 60px;
+      font-size: 18px;
+      line-height: 22px;
+  }
     .project__subtitle{
-        margin: 60px 0 0;
+        margin: 0;
     }
 
     .project__description{
         display: flex;
         flex-direction: column;
+        gap: 0;
     }
 
     .project__title{
@@ -139,21 +145,17 @@
         line-height: 16px
     }
 
+    .project__timing{
+        gap: 10px 0;
+  }
+
     .project__viz{
-        font-style: normal;
-        font-weight: 400;
         font-size: 11px;
         line-height: 13px;
-        text-align: center;
-        padding: 9px 0;
     }
 
     .project__name{
-        font-weight: 400;
         font-size: 11px;
         line-height: 13px;
-        text-align: center;
-        color: #A0A0A0;
-        margin: 0;
     }
 }
