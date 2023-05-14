@@ -58,12 +58,23 @@
     margin: 18px 14px 33px;
   }
   .header__path{
+    max-width: 77px;
     font-size: 10px;
     line-height: 16px;
   }
 
   .header__path_login{
-    width: 54px;
+    max-width: 54px;
     height: 26px;
+  }
+}
+
+@media (max-width: 270px){
+  .header__navigation{
+    display: flex;
+    flex-direction: column;
+  }
+  .header__path{
+    margin: 0
   }
 }

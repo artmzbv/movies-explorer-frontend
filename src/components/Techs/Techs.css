@@ -80,7 +80,7 @@
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 600px){
     .techs{
         background-color: #fff;
         padding-bottom: 70px;
@@ -106,9 +106,10 @@
 
     .techs__list{
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: repeat(auto-fill, 84px);
         padding:0;
         gap: 10px;
         margin: 50px 70px 0;
     }
 }
+
