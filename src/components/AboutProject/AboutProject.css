@@ -115,6 +115,13 @@
     }
 }
 
+@media (max-width: 767px){
+  .project__description{
+    grid-template-columns: 250px 250px;
+    gap: 22px 30px;
+  }
+}
+
 @media (max-width: 680px){
     .project{
         margin: 70px 18px;
