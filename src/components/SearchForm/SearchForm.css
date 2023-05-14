@@ -55,7 +55,7 @@
     border-right: 1px solid #E8E8E8;
 }
 
-.search__button{
+.search__button:hover{
     opacity: 0.5;
 }
 
@@ -159,12 +159,15 @@
     .search__form{
       margin: 90px 10px 35px
     }
+
     .search_container_first{
       background-color: #F9F9F9;
     }
+
     .search__container_second{
       margin-top: 60px;
     }
+
     .search__shortfilms-name{
       font-size: 11px;
       line-height: 18px;
