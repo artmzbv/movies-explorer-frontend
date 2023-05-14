@@ -8,9 +8,9 @@ function SearchForm(){
         <form className="search__form">
             <div className="search__container search__container_first">
                 <div className="search__input-block">
-            <img src={loop} alt="Поиск" name="search" className="search__loop"/>
+            <img src={loop} alt="Поиск" id="search" className="search__loop"/>
             <input
-                name=""
+                name="search"
                 type="text"
                 className="search__input"
                 placeholder="Фильм"
