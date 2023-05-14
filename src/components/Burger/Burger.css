@@ -1,4 +1,4 @@
-.burger__menu{
+.burger{
     position: fixed;
     top: 0;
     bottom:0;
@@ -8,7 +8,7 @@
     min-height: 100vh;
 }
 
-.burger__menu_hidden{
+.burger_hidden{
     display: none;
 }
 

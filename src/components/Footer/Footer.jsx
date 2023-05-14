@@ -7,8 +7,8 @@ function Footer(){
         <div className="footer__about">
         <p className="footer__year">© 2020</p>
         <div className="footer__references">
-        <p className="footer_reference">Яндекс.Практикум</p>
-        <p className="footer_reference">Github</p>
+        <p className="footer__reference">Яндекс.Практикум</p>
+        <p className="footer__reference">Github</p>
         </div>
         </div>
         </footer>
