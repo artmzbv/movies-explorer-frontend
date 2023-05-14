@@ -32,9 +32,24 @@
     .navtab__list{
         margin: 0 auto;
     }
+
     .navtab__text{
         border-radius: 6px;
         font-size: 10px;
         padding: 5px 15.5px;
     }
+
+}
+
+@media (max-width: 319px  ){
+  .navtab__list{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+  }
+
+  .navtab__text{
+    padding: 2px 12px;
+}
 }

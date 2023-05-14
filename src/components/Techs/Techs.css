@@ -99,7 +99,7 @@
     }
 
     .techs__description{
-        width: 292px;
+        max-width: 292px;
         font-size: 11px;
         line-height: 16px;
     }
