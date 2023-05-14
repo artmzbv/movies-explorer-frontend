@@ -121,9 +121,15 @@
         margin:0 auto;
     }
 
+    .search__submit-image{
+      background-color: #fff;
+    }
+
     .search__button{
-        padding:0;
+        padding: 0;
         border: none;
+        outline: none;
+        background-color: #fff;
     }
 
     .search__form{
