@@ -1,0 +1,28 @@
+.nopage{
+display: flex;
+flex-direction: column;
+}
+
+.nopage__number{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 169px;
+    margin: 246px auto 5px ;
+}
+
+.nopage__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 auto 184px;
+}
+
+.nopage__back{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #2BE080;
+    margin: 0 auto 60px;
+}

@@ -1,0 +1,118 @@
+.login{
+    margin: 70px auto;
+    max-width: 396px;
+    display:flex;
+    flex-direction: column;
+}
+
+.login__logo{
+    width: 38px;
+    height: 38px;
+}
+
+.login__title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 40px 0;
+}
+
+.login__input-name{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #A0A0A0;
+}
+
+.login__input{
+    margin-bottom:24px;
+    border:none;
+    border-bottom: 1px solid #E8E8E8;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 10px;
+}
+
+.login__signin-block{
+    margin: 212px auto 15px;
+    border: none;
+    outline: none;
+    width:  100%;
+    height: 45px;
+    background: #2BE080;
+    border-radius: 3px;
+}
+
+.login__signin-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.login__signedup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login__signedup-question{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A0A0A0;
+}
+
+.login__navigation{
+    text-decoration: none;
+}
+
+.login__signin{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #2BE080;
+    margin-left: 6px;
+}
+
+@media (max-width: 800px){
+    .login{
+      margin: 232px auto;
+    }
+}
+
+@media (max-width: 400px){
+    .login{
+        margin: auto 30px;
+    }
+
+    .login__logo{
+        align-self: center;
+        margin-top: 56px;
+    }
+    .login__title{
+        text-align: center;
+        margin-bottom: 80px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .login__signedup-question{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .login__signin{
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

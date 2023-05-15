@@ -1,0 +1,43 @@
+.movies{
+    margin: 0 70px
+}
+.movies__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.movies__button{
+    outline: none;
+    cursor: pointer;
+    width: 320px;
+    margin: 80px auto;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    align-self: center;
+    text-align: center;
+    padding: 9px 60px 11px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 800px){
+  .movies{
+      margin: 0 30px
+  }
+}
+
+@media (max-width: 400px){
+    .movies{
+        margin: 0 10px
+    }
+    .movies__button{
+      outline: none;
+      cursor: pointer;
+      width: 240px;
+}
+}

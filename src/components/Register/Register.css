@@ -1,0 +1,125 @@
+.register{
+    margin: 70px auto;
+    max-width: 396px;
+    display:flex;
+    flex-direction: column;
+}
+
+.register__logo{
+    width: 38px;
+    height: 38px;
+}
+
+.register__title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 40px 0;
+}
+
+.register__input-name{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #A0A0A0;
+}
+
+.register__input{
+    margin-bottom:24px;
+    border:none;
+    border-bottom: 1px solid #E8E8E8;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 10px;
+}
+
+.register__signup-block{
+    margin: 110px auto 15px;
+    border: none;
+    outline: none;
+    width:  100%;
+    height: 45px;
+    background: #2BE080;
+    border-radius: 3px;
+}
+
+.register__signup-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.register__signedup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.register__signedup-question{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A0A0A0;
+}
+
+.register__navigation{
+    text-decoration: none;
+}
+
+.register__signin{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #2BE080;
+    margin-left: 6px;
+}
+
+@media (max-width: 800px){
+  .register{
+        margin: 232px auto;
+  }
+}
+
+@media (max-width: 400px){
+    .register{
+        margin: auto 30px;
+    }
+
+    .register__logo{
+        align-self: center;
+        margin-top: 56px;
+    }
+    .register__welcome{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .register__signedup-question{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .register__signin{
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 320px){
+    .register__title{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+}

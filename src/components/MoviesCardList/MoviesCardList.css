@@ -1,0 +1,36 @@
+
+    .list__table{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,  364px);
+        justify-content: center;
+        gap: 30px 24px;
+        padding-top: 80px;
+        border-top: 1px solid #E8E8E8;
+    }
+
+    @media (max-width: 768px){
+      .list{
+        padding: 0;
+      }
+      .list__table{
+        padding-top: 110;
+        grid-template-columns: repeat(auto-fill, 339px);
+        grid-template-rows: 3;
+        gap: 36px 30px;
+      }
+  }
+    @media (max-width: 320px){
+        .list__table{
+          padding-top: 50px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 0;
+        }
+        .list__button{
+          padding: 11px 20px 9px;
+          width: 240px;
+
+        }
+    }
